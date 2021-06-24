@@ -1,0 +1,32 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.hero {
+  min-height: 75vh;
+  background-image: url(https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+.article {
+  min-height: 28vh;
+  }
+
+.bg-secondary {
+  background-color: #e9eff3;
+}
+
+.mh {
+  max-height: 30vh;
+}
+
+.object-fit-contain {
+  object-fit: cover;
+}
